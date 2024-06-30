@@ -1,0 +1,112 @@
+.btn,
+.badge {
+  border-radius: 9999px;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+  &:hover {
+    background-color: #303030;
+    border-color: #303030;
+  }
+  &:first-child:active{
+    background-color: #303030;
+    border-color: #303030;
+  }
+  &:focus {
+    background-color: #303030;
+    border-color: #303030;
+    box-shadow: 0 0 0 0.25rem rgba(48, 48, 48, 0.5);
+  }
+  &:focus-visible {
+    background-color: #303030;
+    border-color: #303030;
+    box-shadow: 0 0 0 0.25rem rgba(48, 48, 48, 0.5);
+  }
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  border-color: #000000;
+  color: #000000;
+  &:hover {
+    background-color: #f0f0f0;
+    border-color: #303030;
+    color: #000000;
+  }
+  &:first-child:active {
+    background-color: #f0f0f0;
+    border-color: #303030;
+    color: #000000;
+  }
+  &:focus {
+    background-color: #f0f0f0;
+    border-color: #303030;
+    color: #000000;
+    box-shadow: 0 0 0 0.25rem rgba(48, 48, 48, 0.5);
+  }
+  &:focus-visible {
+    background-color: #f0f0f0;
+    border-color: #303030;
+    color: #000000;
+    box-shadow: 0 0 0 0.25rem rgba(48, 48, 48, 0.5);
+  }
+}
+
+.btn-danger {
+  background-color: #fc4892;
+  border-color: #fc4892;
+  &:hover {
+    background-color: #fd68a6;
+    border-color: #fd68a6;
+  }
+  &:active {
+    background-color: #fd68a6;
+    border-color: #fd68a6;
+  }
+  &:focus {
+    background-color: #fd68a6;
+    border-color: #fd68a6;
+    box-shadow: 0 0 0 0.25rem rgba(253, 104, 166, 0.5);
+  }
+}
+
+.badge {
+  background-color: #e4d4ff;
+  color: #623e9a;
+}
+
+.navbar,
+.table > :not(caption) > * > * {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.form-check-input {
+  border-color: #000000;
+  &:hover {
+    border-color: #303030;
+  }
+  &:checked {
+    background-color: #000000;
+    border-color: #000000;
+  }
+  &:checked:hover {
+    background-color: #303030;
+    border-color: #303030;
+  }
+  &:focus {
+    border-color: #303030;
+    box-shadow: 0 0 0 0.25rem rgba(48, 48, 48, 0.5);
+  }
+}
+
+.form-control:focus {
+  border-color: #303030;
+  box-shadow: 0 0 0 0.25rem rgba(48, 48, 48, 0.5);
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #e4d4ff;
+    color: #000000;
+}

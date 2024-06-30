@@ -1,0 +1,23 @@
+.img-container{
+    height: 275px;
+    overflow: hidden;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+img{
+    height: 100%;
+    width: auto;
+    min-width: 100%;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.card{
+    border-radius: 18px;
+}
+
+.card-img-top{
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}

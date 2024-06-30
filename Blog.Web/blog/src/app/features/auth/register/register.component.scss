@@ -1,0 +1,9 @@
+.basis-half{
+    flex-basis: 100%;
+}
+
+@media (min-width: 992px){
+.basis-half{
+    flex-basis: 50%;
+}
+}
